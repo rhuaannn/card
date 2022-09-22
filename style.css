@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: blanchedalmond;
+  display: inline-block;
+}
+
+.navbar {
+  height: 200px;
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  justify-content: center;
+
+}
+
+.navbar .navbar-center {
+  text-align: center;
+  width: 100%;
+
+}
+
+.navbar .img-navbar {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.navbar-center h2 {
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border: 4px double rgba(255, 255, 255, .25);
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+
+}
+.texto-container p{
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border: 4px double black;
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 21%;
+  
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+
+
+}
+
+.texto-container {
+  padding-top: 250px;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  color: green;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+  padding-left: 120px;
+  align-items: center;
+  padding-top: 70px;
+  display: inline-block;
+
+
+}
+
+.texto-container p:hover {
+  background: linear-gradient(90deg, #ff0043, #fdb9cd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+
+.image {
+  float: right;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.blue {
+  border-left: 3px solid #4895ff;
+}
+
+.green {
+  border-left: 3px solid #3bb54a;
+}
+
+.black {
+  border-left: 3px solid #05110d;
+}
+
+footer {
+  background-color: transparent;
+  color: black;
+  position: relative;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+a:hover{
+background:#3bb54a
+}
+@media (min-width:380px){
+  .card{
+      display: table-cell;
+  }
+  .card{
+      padding: 35px;
+  }
+  .card {
+      font-size: 22px;
+  }
+  .texto-container {
+display: table-cell;
+
+}
+.texto-container h2{
+  display: table-cell;
+}
+
+@media (min-width:992px){
+  h2{
+      display: table-cell;
+  }
+}
+
